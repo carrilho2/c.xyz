@@ -89,7 +89,7 @@
             event.preventDefault(); // Previne o envio do formulário
             const password = document.getElementById("password").value;
             if (password === "password") {
-               window.location.href = "menu.html"; // Redireciona para o menu
+               window.location.href = "hall.html"; // Redireciona para o menu
             } else {
                alert("Senha incorreta. Tente novamente."); // Alerta para senha errada
             }
@@ -98,7 +98,7 @@
    </head>
    <body>
       <div class="wrapper">       
-         <div class="title">Login</div>
+         <div class="title"></div>
          <form onsubmit="handleLogin(event)">
             <div class="field">
                <input type="password" id="password" required placeholder=" ">
